@@ -1,0 +1,32 @@
+{
+
+    "Projectiles": {
+        "PlayerBullet":{
+            "speed":5,
+            "damage":10
+        }
+    },
+
+    "Enemies": {
+        "Bomb":{
+            "Health": {
+                "hearts":1,
+                "displayHealth":false
+            }
+        }
+    },
+
+    "Player": {
+        "Health":{
+            "hearts":5,
+            "displayHealth":true
+        },
+        "Movement":{
+            "speed":3,
+            "rotationSpeed":3,
+            "crashGravity":1,
+            "firedProjectile":"PlayerBullet"
+        }
+    }
+
+}
